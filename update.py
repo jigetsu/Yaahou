@@ -1,7 +1,8 @@
 import re
 import requests
+import os
 
-SOURCE_URL = "https://sliv.tgaadi.workers.dev/sethd.m3u8"
+SOURCE_URL = os.environ["SOURCE_URL"]
 PLAYLIST_FILE = "playlist.m3u8"
 
 def get_new_token():
@@ -15,7 +16,6 @@ def get_new_token():
 def update_playlist(token):
     with open(PLAYLIST_FILE, 'r') as f:
         content = f.read()
-    # Replace old hdnea token on every URL
     updated = re.sub(r'\?hdnea=[^\s]+', token, content)
     with open(PLAYLIST_FILE, 'w') as f:
         f.write(updated)
@@ -24,7 +24,7 @@ def update_playlist(token):
 if __name__ == "__main__":
     token = get_new_token()
     if token:
-        print(f"New token: {token}")
+        print(f"New token fetched successfully.")
         update_playlist(token)
     else:
         print("Failed to get token!")
