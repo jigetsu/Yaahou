@@ -1,4 +1,4 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="closed" tvg-name="closed" group-title="Tools",closed
+#EXTINF:-1 tvg-id="Your Account Deactivated" tvg-name="closed" group-title="Tools",closed
 https://raw.githubusercontent.com/jigetsu/Yaahou/main/closed.mp4
