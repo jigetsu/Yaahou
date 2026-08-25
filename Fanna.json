@@ -1,1 +1,8 @@
-{}
+[
+  {
+    "name": "Check",
+    "imageUrl": "https://check",
+    "mainUrl": "https://check",
+    "pin": "665"
+  }
+]
