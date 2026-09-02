@@ -4,5 +4,17 @@
 
 #EXT-X-MEDIA:TYPE=AUDIO,LANGUAGE="hin",NAME="Hindi",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",GROUP-ID="program_audio_0",URI="https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/master_aud.m3u8?hdntl=exp=1788381959~acl=%2fcmaf%2flive%2f2105540%2fZeeCinemaHDELE%2f*~id=8be09d52-445d-4875-855a-8084b0bfab84~data=hdntl,non-ssai_8be09d52-445d-4875-855a-8084b0bfab84~hmac=593b0730b6ed5492f45773a05808c6d43c9ce2994808e5b7cdb140e3ea71d851"
 
+#EXT-X-STREAM-INF:BANDWIDTH=458480,AVERAGE-BANDWIDTH=458480,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=426x240,FRAME-RATE=25.000,AUDIO="program_audio_0"
+https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/master_240p.m3u8?hdntl=exp=1788381959~acl=%2fcmaf%2flive%2f2105540%2fZeeCinemaHDELE%2f*~id=8be09d52-445d-4875-855a-8084b0bfab84~data=hdntl,non-ssai_8be09d52-445d-4875-855a-8084b0bfab84~hmac=593b0730b6ed5492f45773a05808c6d43c9ce2994808e5b7cdb140e3ea71d851
+
+#EXT-X-STREAM-INF:BANDWIDTH=760320,AVERAGE-BANDWIDTH=760320,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=25.000,AUDIO="program_audio_0"
+https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/master_360p.m3u8?hdntl=exp=1788381959~acl=%2fcmaf%2flive%2f2105540%2fZeeCinemaHDELE%2f*~id=8be09d52-445d-4875-855a-8084b0bfab84~data=hdntl,non-ssai_8be09d52-445d-4875-855a-8084b0bfab84~hmac=593b0730b6ed5492f45773a05808c6d43c9ce2994808e5b7cdb140e3ea71d851
+
+#EXT-X-STREAM-INF:BANDWIDTH=1256200,AVERAGE-BANDWIDTH=1256200,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=25.000,AUDIO="program_audio_0"
+https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/master_480p.m3u8?hdntl=exp=1788381959~acl=%2fcmaf%2flive%2f2105540%2fZeeCinemaHDELE%2f*~id=8be09d52-445d-4875-855a-8084b0bfab84~data=hdntl,non-ssai_8be09d52-445d-4875-855a-8084b0bfab84~hmac=593b0730b6ed5492f45773a05808c6d43c9ce2994808e5b7cdb140e3ea71d851
+
+#EXT-X-STREAM-INF:BANDWIDTH=1525700,AVERAGE-BANDWIDTH=1525700,CODECS="avc1.4d4029,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=25.000,AUDIO="program_audio_0"
+https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/master_576P.m3u8?hdntl=exp=1788381959~acl=%2fcmaf%2flive%2f2105540%2fZeeCinemaHDELE%2f*~id=8be09d52-445d-4875-855a-8084b0bfab84~data=hdntl,non-ssai_8be09d52-445d-4875-855a-8084b0bfab84~hmac=593b0730b6ed5492f45773a05808c6d43c9ce2994808e5b7cdb140e3ea71d851
+
 #EXT-X-STREAM-INF:BANDWIDTH=2334200,AVERAGE-BANDWIDTH=2334200,CODECS="avc1.4d4029,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=25.000,AUDIO="program_audio_0"
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/master_720p.m3u8?hdntl=exp=1788381959~acl=%2fcmaf%2flive%2f2105540%2fZeeCinemaHDELE%2f*~id=8be09d52-445d-4875-855a-8084b0bfab84~data=hdntl,non-ssai_8be09d52-445d-4875-855a-8084b0bfab84~hmac=593b0730b6ed5492f45773a05808c6d43c9ce2994808e5b7cdb140e3ea71d851
